@@ -1,5 +1,5 @@
 const textInputs = document.querySelectorAll("input");
-const publicUrl = 'https://nodejssome.up.railway.app';
+const publicUrl = 'https://projectnodejssimulation.up.railway.app/';
 
 textInputs.forEach((textInput) => {
   textInput.addEventListener("focus", () => {
