@@ -1,7 +1,7 @@
 const fullName = document.getElementById('as_full_name');
 const nameUser = document.getElementById('as_name');
 const usernameUser = document.getElementById('as_username');
-const publicUrl = 'https://nodejssome.up.railway.app';
+const publicUrl = 'https://projectnodejssimulation.up.railway.app';
 
 document.addEventListener("DOMContentLoaded", function () {
     const token = localStorage.getItem("token");
