@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Register</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.10.1/dist/sweetalert2.min.css
+"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="form-container sign-in-form">
+      <div class="form-box sign-in-box">
+        <h2>Login</h2>
+        <form action="" id="loginForm">
+          <div class="field">
+            <i class="uil uil-at"></i>
+            <input
+              type="text"
+              placeholder="Username"
+              id="username-login"
+              required
+            />
+          </div>
+          <div class="field">
+            <i class="uil uil-lock-alt"></i>
+            <input
+              type="password"
+              class="password-input"
+              placeholder="Password"
+              autocomplete="off"
+              id="password-login"
+              required
+            />
+            <div class="eye-btn"><i class="uil uil-eye-slash"></i></div>
+          </div>
+          <div class="forget-link">
+            <a href="">Forget password?</a>
+          </div>
+          <input
+            type="submit"
+            id="submit-login"
+            class="submit-btn"
+            value="Login"
+          />
+        </form>
+        <div class="login-options">
+          <p class="text">Or, login with...</p>
+          <div class="other-logins">
+            <a href=""><img src="./assets/images/google-logo.png" alt="" /></a>
+            <a href=""
+              ><img src="./assets/images/facebook-logo.png" alt=""
+            /></a>
+            <a href=""><img src="./assets/images//apple-logo.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="imgBox sign-in-imgBox">
+        <div class="sliding-link">
+          <p>Don't have an account?</p>
+          <span class="sign-up-btn">Sign up</span>
+        </div>
+        <img src="./assets/images/signup-img.png" alt="" />
+      </div>
+    </div>
+
+    <div class="form-container sign-up-form">
+      <div class="imgBox sign-up-imgBox">
+        <div class="sliding-link">
+          <p>Already a member?</p>
+          <span class="sign-in-btn">Sign in</span>
+        </div>
+        <img src="./assets/images/signin-img.jpg" alt="" />
+      </div>
+      <div class="form-box sign-up-box">
+        <h2>Sign up</h2>
+        <div class="login-options">
+          <div class="other-logins">
+            <a href=""><img src="./assets/images/google-logo.png" alt="" /></a>
+            <a href=""
+              ><img src="./assets/images/facebook-logo.png" alt=""
+            /></a>
+            <a href=""><img src="./assets/images/apple-logo.png" alt="" /></a>
+          </div>
+          <p class="text">Or, sign up with email...</p>
+        </div>
+        <form action="" id="registerForm">
+          <div class="field">
+            <i class="uil uil-at"></i>
+            <input
+              type="text"
+              placeholder="Username"
+              id="username-register"
+              required
+            />
+          </div>
+          <div class="field">
+            <i class="uil uil-user"></i>
+            <input
+              type="text"
+              placeholder="Full name"
+              id="name-register"
+              required
+            />
+          </div>
+          <div class="field">
+            <i class="uil uil-lock-alt"></i>
+            <input
+              type="password"
+              placeholder="Password"
+              id="password-register"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="field">
+            <i class="uil uil-lock-access"></i>
+            <input
+              type="password"
+              placeholder="Confirm password"
+              id="confirmPassword-register"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <input type="submit" class="submit-btn" value="Sign up" />
+        </form>
+      </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.10.1/dist/sweetalert2.all.min.js
+"></script>
+  </body>
+</html>

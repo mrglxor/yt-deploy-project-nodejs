@@ -1,0 +1,22 @@
+### Register
+
+POST http://localhost:5000/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+    "username": "mrglxor",
+    "password": "rahasia",
+    "name": "Muhamad Farhan"
+}
+
+### Login
+
+POST http://localhost:5000/api/users/login
+Content-Type: application/json
+Accept: application/json
+
+{
+    "username": "mrglxor",
+    "password": "rahasia"
+}
