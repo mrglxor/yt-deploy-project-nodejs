@@ -4,8 +4,8 @@
   "description": "Kita akan memperaktekan deploy RESTfullAPI & Tampilan sederhana - FullStack",
   "main": "server/src/server.js",
   "scripts": {
-    "dev": "nodemon --env-file=.env --trace-warnings server/src/server",
-    "start": "node --env-file=.env server/src/server"
+    "dev": "nodemon server/src/server",
+    "start": "node server/src/server"
   },
   "keywords": [],
   "author": "Muhamad Farhan",
